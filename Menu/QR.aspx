@@ -1,0 +1,1 @@
+﻿<%@ Page Title="홈 페이지" Language="C#" AutoEventWireup="true" CodeFile="QR.aspx.cs" Inherits="Menu_QR"%>

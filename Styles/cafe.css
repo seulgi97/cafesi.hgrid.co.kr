@@ -1,0 +1,199 @@
+﻿y, html {
+    margin: 0;
+    /*  font: bold 11px/1.4 'Open Sans', arial, sans-serif;*/
+    font-size: 10pt;
+    background: #000;
+}
+td {
+    cursor: pointer;
+    font-size: 11px;
+}
+/*
+.level1 ul { 
+  margin: 1px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+.level li { 
+  position: relative; 
+  padding: 1px 0;
+}
+.level2 a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 1px 1px;
+  position: relative;
+}
+.level2 a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.level2 a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 1px;
+    }
+}
+*/
+.hover_row {
+    background-color: #A1DCF2;
+}
+
+div#networkhelp {
+    display: none;
+    position: absolute;
+    width: 400px;
+    padding: 10px;
+    background: #eeeeee;
+    color: #000000;
+    border: 1px solid gray;
+    font-size: 90%;
+    text-align: left;
+    border-radius: 6px;
+    z-index: 10;
+}
+
+div#rackhelp {
+    display: none;
+    position: absolute;
+    width: 400px;
+    padding: 10px;
+    background: #eeeeee;
+    color: #000000;
+    border: 1px solid gray;
+    font-size: 90%;
+    text-align: left;
+    border-radius: 6px;
+    z-index: 10;
+}
+
+div#layout {
+    border: 1px solid #50505d;
+    padding: 10px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formlayout {
+    border: 1px solid #50505d;
+    padding: 10px;
+}
+
+.excel {
+    border-radius: 15px;
+    color: black;
+    background: #f2f2f2;
+    padding: 3px 15px 5px 15px;
+}
+
+.normal {
+    border: 1px solid #0bb71d;
+    border-radius: 15px;
+    color: white;
+    background: #0bb71d;
+    padding: 3px 15px 5px 15px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.nohistory {
+    border: 1px solid gray;
+    border-radius: 15px;
+    color: white;
+    background: gray;
+    padding: 3px 15px 5px 15px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.nolonguse {
+    border: 1px solid orange;
+    border-radius: 15px;
+    color: white;
+    background: orange;
+    padding: 3px 10px 5px 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.nouse {
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white; 
+    background: black;
+    padding: 3px 11px 5px 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.reqchk {
+    border: 1px solid red;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    padding: 3px 15px 5px 15px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.tooltip {
+    position: relative;
+    display: block;
+}
+
+    .tooltip .tooltiptext {
+        visibility: hidden; 
+        width: 240px; 
+        border: 1px solid gray;
+        background-color: white;
+        color: black;
+        text-align: left;
+        border-radius: 6px;
+        padding: 10px 0;
+        position: absolute; 
+        z-index: 1;
+        font-size: 12px;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible; 
+    }
+
+.circle {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    background: #fff;
+    margin-left: 4px;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}

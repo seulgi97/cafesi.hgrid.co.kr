@@ -1,0 +1,180 @@
+﻿
+   <asp:GridView runat="server" skinid="GridView1" BackColor="White"	
+            GridLines="Horizontal" CssClass="mt5">
+        <RowStyle BackColor="#F7F7F7" Height="14px" CssClass="T_D"  />
+		<AlternatingRowStyle BackColor="#FFFFFF" Height="14px" CssClass="T_D" />
+		<FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" CssClass="T_F" />
+		<PagerStyle HorizontalAlign="Center" CssClass="T_P" />
+		<SelectedRowStyle BackColor="#FFF3A2" Font-Bold="True"  />
+		<HeaderStyle CssClass="T_H" />
+        <EditRowStyle BackColor="#FFDFDF" />
+        <emptydatatemplate>
+          <asp:Label runat="server" BackColor="#FFFFFF" Width="100%" Height="20px" CssClass="tc pt10">
+          조회된 데이터가 없습니다
+           </asp:Label>
+        </emptydatatemplate>
+    </asp:GridView>
+
+   <asp:GridView runat="server" skinid="GridViews" BackColor="White"	
+            GridLines="Horizontal" CssClass="mt5">
+        <RowStyle BackColor="#F7F7F7" CssClass="T_D"  />
+		<AlternatingRowStyle BackColor="#FFFFFF" CssClass="T_D" />
+		<FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+		<PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Center" />
+		<SelectedRowStyle BackColor="#FFF3A2" Font-Bold="True"  />
+		<HeaderStyle CssClass="T_H" />
+        <EditRowStyle BackColor="#FFDFDF" />
+        <emptydatarowstyle />
+        <emptydatatemplate>
+          <asp:Label runat="server" BackColor="#FFFFFF" Width="100%" Height="20px" CssClass="tc pt10">
+          조회된 데이터가 없습니다
+           </asp:Label>
+        </emptydatatemplate> 
+    </asp:GridView>
+
+   <asp:GridView runat="server" skinid="GridView3" BackColor="White"	
+            GridLines="Horizontal" CssClass="mt5">
+        <RowStyle BackColor="#F7F7F7" Height="16px" CssClass="T_D"  />
+		<AlternatingRowStyle BackColor="#FFFFFF" Height="16px" CssClass="T_D" />
+		<FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+		<PagerStyle BackColor="#FDB813" ForeColor="#4A3C8C" HorizontalAlign="Center" />
+		<SelectedRowStyle BackColor="#FFF3A2" Font-Bold="True"  />
+		<HeaderStyle BackColor="#EE2E24" ForeColor="#F7F7F7" Height="20px" HorizontalAlign="Center" />
+        <EditRowStyle BackColor="#FFDFDF" />
+        <emptydatarowstyle />
+        <emptydatatemplate>
+          <asp:Label runat="server" BackColor="#FFFFFF" Width="100%" Height="20px" CssClass="tc pt10">
+          조회된 데이터가 없습니다
+           </asp:Label>
+        </emptydatatemplate> 
+    </asp:GridView>
+
+   <asp:GridView runat="server" skinid="GridViewLine" CssClass="mt5">
+        <RowStyle CssClass="gvT_D"  />
+		<AlternatingRowStyle CssClass="gvT_D" />
+		<FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+		<PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Center" />
+		<SelectedRowStyle BackColor="#FFF3A2" Font-Bold="True"  />
+		<HeaderStyle CssClass="gvT_H"/>
+        <EditRowStyle BackColor="#FFDFDF" />
+        <emptydatatemplate>
+          <asp:Label runat="server" BackColor="#FFFFFF" Width="100%" Height="20px" CssClass="tc pt10">
+          조회된 데이터가 없습니다
+           </asp:Label>
+        </emptydatatemplate>
+    </asp:GridView>
+
+   <asp:GridView runat="server" skinid="GridTotal1" BackColor="White"	
+            GridLines="Horizontal" CssClass="mt5" Font-Size="10px">
+        <RowStyle BackColor="#F7F7F7" Height="13px" Font-Size="10px"/>
+		<AlternatingRowStyle BackColor="#FFFFFF" Height="13px" CssClass="T_D" />
+		<FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+		<PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Right" />
+		<SelectedRowStyle BackColor="#FFFFFF" Font-Bold="True" ForeColor="#F7F7F7" />
+		<HeaderStyle BackColor="#4A3C8C" ForeColor="#F7F7F7" Height="15px" HorizontalAlign="Center" />
+        <EditRowStyle BackColor="#FFDFDF" />
+        <emptydatarowstyle />
+        <emptydatatemplate>
+          <asp:Label runat="server" BackColor="#FFFFFF" Width="100%" Height="20px" CssClass="tc pt10">
+          조회된 데이터가 없습니다
+           </asp:Label>
+        </emptydatatemplate> 
+    </asp:GridView>
+
+   <asp:GridView runat="server" skinid="gv선택용" BackColor="White"	
+            GridLines="Horizontal" CssClass="mt5">
+        <RowStyle BackColor="#FFFFFF" Height="16px" CssClass="T_D f10"  />
+		<AlternatingRowStyle BackColor="#FFFFFF" Height="16px" CssClass="T_D f10" />
+		<SelectedRowStyle BackColor="#FFF3A2" Height="16px" CssClass="T_D f10"  />
+		<FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+		<PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Center" />
+		<HeaderStyle BackColor="#4A3C8C" ForeColor="#F7F7F7" Height="20px" HorizontalAlign="Center" />
+        <EditRowStyle BackColor="#FFDFDF" />
+        <emptydatarowstyle />
+        <emptydatatemplate>
+          <asp:Label runat="server" BackColor="#FFFFFF" Width="100%" Height="20px" CssClass="tc pt10">
+          조회된 데이터가 없습니다
+           </asp:Label>
+        </emptydatatemplate> 
+    </asp:GridView>
+
+    <asp:GridView runat="server" skinid="SkGridView" BackColor="White"	
+            GridLines="Horizontal" CssClass="mt5">
+        <RowStyle BackColor="#F7F7F7" Height="16px" HorizontalAlign="Center" CssClass="T_D"/>
+		<AlternatingRowStyle BackColor="#FFFFFF" Height="16px" CssClass="T_D" />
+		<FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+		<PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Center" />
+		<SelectedRowStyle BackColor="#FFFFFF" Font-Bold="True"  />
+		<HeaderStyle BackColor="#4A3C8C" ForeColor="#F7F7F7" Height="20px" HorizontalAlign="Center" />
+        <EditRowStyle BackColor="#FFDFDF" />
+    </asp:GridView>
+
+    <asp:DetailsView runat="server" skinid="SkDetailsView" 
+    Height="50px" Width="780px" BackColor="White" CellPadding="3" GridLines="Horizontal">
+        <HeaderStyle BackColor="#4A3C8C" ForeColor="#F7F7F7" Height="20px" Font-Bold="True"/>
+        <FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+        <RowStyle BackColor="#F7F7F7" Height="16px" Font-Size="10px"/>
+		<AlternatingRowStyle BackColor="#FFFFFF" Height="16px" Font-Size="10px" />
+        <PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Right" />   
+    </asp:DetailsView>
+
+    <asp:DetailsView runat="server" skinid="DetailsView1" BackColor="White"	GridLines="Horizontal" CssClass="mt5" CellPadding="3">
+        <RowStyle BackColor="#F7F7F7" Height="16px" CssClass="T_D"  />
+		<AlternatingRowStyle BackColor="#FFFFFF" Height="16px" CssClass="T_D" />
+		<FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+		<PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Center" />
+		<HeaderStyle BackColor="#4A3C8C" ForeColor="#F7F7F7" Height="20px" HorizontalAlign="Center" Font-Bold="true"/>
+        <EditRowStyle BackColor="#FFDFDF" />
+        <emptydatarowstyle />
+        <emptydatatemplate>
+          <asp:Label ID="Label2" runat="server" BackColor="#FFFFFF" Width="100%" Height="20px" CssClass="tc pt10">
+          조회된 데이터가 없습니다
+           </asp:Label>
+        </emptydatatemplate> 
+    </asp:DetailsView>
+
+    <asp:TextBox runat="server" SkinID="tb1" BackColor="#FFFFFF" ForeColor="#222222" cssClass="text_default"></asp:TextBox>
+    <asp:TextBox runat="server" SkinID="tb2" BackColor="#FFFFFF" ForeColor="#222222" cssClass="text_default"></asp:TextBox>
+    <asp:TextBox runat="server" SkinID="tbm1" cssClass="textmulti_default"></asp:TextBox>
+    <asp:TextBox runat="server" SkinID="tbpass" BackColor="#000000" ForeColor="#222222" cssClass="text_default"></asp:TextBox>
+    <asp:TextBox runat="server" SkinID="mtb1" BackColor="#FFFFFF" ForeColor="#222222" cssClass="textmulti_default"></asp:TextBox>
+    <asp:TextBox runat="server" SkinID="tb1red" Font-Size="12px" BackColor="#FFFFFF" ForeColor="#222222" cssClass="text_default"></asp:TextBox>
+    <asp:CheckBox runat="server" SkinID="cb1" cssClass="cb_default"></asp:CheckBox>
+
+    <asp:TextBox runat="server" SkinID="tb_blue" BackColor="#EDF8FF" ForeColor="#222222" cssClass="text_default"></asp:TextBox>
+    <asp:TextBox runat="server" SkinID="tb_red" BackColor="#FFE6E6" ForeColor="#222222" cssClass="text_default"></asp:TextBox>
+
+    <asp:DropDownList runat="server" SkinID="dd1" BackColor="#FFFFFF" ForeColor="#222222" cssClass="dd_default"></asp:DropDownList>
+    <asp:DropDownList runat="server" SkinID="dd_red" BackColor="#FFE6E6" ForeColor="#222222" cssClass="dd_default"></asp:DropDownList>
+    <asp:DropDownList runat="server" SkinID="dd_blue" BackColor="#EDF8FF" ForeColor="#222222" cssClass="dd_default"></asp:DropDownList>
+
+    <asp:RadioButtonList runat="server" SkinID="rb_red" BackColor="#FFE6E6" ForeColor="#222222" ></asp:RadioButtonList>
+    <asp:RadioButtonList runat="server" SkinID="rb_blue" BackColor="#EDF8FF" ForeColor="#222222" ></asp:RadioButtonList>
+
+    <asp:Button runat="server" SkinID="bt1" BackColor="#5261AB" ForeColor="#FFFFFF" cssClass="btn_default"></asp:Button>
+    <asp:Button runat="server" SkinID="bt2" BackColor="#FBBF1F" ForeColor="#000000" cssClass="btn_default"></asp:Button>
+    <asp:Button runat="server" SkinID="bt3" BackColor="#B70000" ForeColor="#FFFFFF" cssClass="btn_default"></asp:Button>
+    <asp:Button runat="server" SkinID="bt4" BackColor="#F361DC" ForeColor="#FFFFFF" cssClass="btn_default"></asp:Button>
+    <asp:Button runat="server" SkinID="bt5" BackColor="#BCE55C" ForeColor="#000000" cssClass="btn_default"></asp:Button>
+
+    <asp:Label runat="server" SkinID="lb1">
+    </asp:Label>
+
+     <asp:Label runat="server" SkinID="lberror" Font-Size="12px" BorderStyle="NONE" 
+     CssClass="vm pt2 ml2" ForeColor="#FF0000"
+     Height="14px">
+    </asp:Label>
+
+    <asp:Table runat="server" SkinID="tl1" BorderStyle="Solid" BorderWidth="1px" BorderColor="#000000" 
+     BackColor="#FBBF1F" CssClass="vm pt3 ml2" Width="100%"></asp:Table>
+
+     <asp:FileUpload runat="server" SkinID="fu1" Font-Size="12px" BackColor="#FBBF1F" 
+     ForeColor="#000000" BorderStyle="Solid" BorderWidth="1px" BorderColor="#000000" 
+     CssClass="vm pt3 ml2" 
+     Height="20px">
+    </asp:FileUpload>
+
+    <asp:ImageButton runat="server" SkinID="ib1" CssClass="vm pt3 ml2"></asp:ImageButton>
+
+    <asp:LinkButton runat="server" SkinID="lbt1" BorderStyle="Solid" BorderWidth="1px" BorderColor="#e6e6e6" 
+     BackColor="#FBBF1F" ForeColor="#000000"  CssClass="vm pt3 pr5 pl5" Font-Underline="false"></asp:LinkButton>

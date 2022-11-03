@@ -1,0 +1,28 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>이 페이지를 표시할 수 없습니다.</title>
+        <style>
+            .login_tb { width:80%; border: 1px solid #aaa; font-family:맑은 고딕; font-weight:bold; font-size:14px; color:#aaa; padding:10px; }
+            .login_bt { width:80%; border-radius:4px; background-color:#aaa; border: 0; font-family:맑은 고딕; font-weight:bold; font-size:14px; color:#fff; padding:10px; }
+            .login_bt2 { width:80%; border-radius:4px; background-color:#002e7d; border: 0; font-family:맑은 고딕; font-weight:bold; font-size:14px; color:#fff; padding:10px; }
+        </style>
+    </head>
+
+    <body>
+        <div id="contentContainer" style="width:100%;">
+            <div id="mainTitle" style="color:#2778ec; font-family:맑은 고딕; font-size:60px; padding-left:50px; padding-top:50px;">이 페이지를 표시할 수 없습니다.</div>
+            <div class="taskSection" id="taskSection">
+                <ul id="cantDisplayTasks" class="tasks" style="font-family:맑은 고딕; font-size:15px; line-height:30px; padding-left:70px;">
+                    <li id="Li1"> <span style="font-size:20px; color:Red; font-weight:bold"><%=su.GetIP(this.Page) %></span> 에서 접속하셨습니다. </li>
+                    <li id="task1-1">사이트 관리자에게 접근권한이 있는지 확인하세요</li>
+                    <li id="task1-3">몇 분 후에 페이지를 새로 고치세요.</li>
+                </ul>
+            </div>
+            <br />
+            <div style="padding-left:50px"><input type="button" onclick="location.href='https://cs.smart36.co.kr';" value="연결 재시도" class="login_bt2" /> </div>
+        </div>
+    </body>
+</html>

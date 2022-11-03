@@ -1,0 +1,1 @@
+﻿<%@ Page Title="API" Language="C#" AutoEventWireup="true" CodeFile="SendR.aspx.cs" Inherits="API_SendR" %>
